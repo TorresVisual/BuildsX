@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>BuildsX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <header>
+        <img id="logo" src="logo.svg" alt="BuildsX Logo">
+        <button id="loginButton">Login</button>
+        <div id="overlay" class="overlay"></div>
+        <div id="loginModal" class="modal">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit" class="button">Submit</button>
+                <button type="button" id="closeModal" class="button">Close</button>
+            </form>
+            <div id="loginMessage"></div>
+        </div> 
+      </header>
+    
+    
+
+      <div class="details-container">
+        <div class="details-details">
+          <img
+            src="public/external/background4100-y9ul-1100h.png"
+            alt="Background4100"
+            class="details-background1"
+          />
+          <div class="details-background2">
+            <img
+              src="public/external/rectangle4102-s0mv-600w.png"
+              alt="Rectangle4102"
+              class="details-rectangle10"
+            />
+          </div>
+          <div class="details-beasts">
+            <img
+              src="public/external/beast24106-twk-200w.png"
+              alt="Beast24106"
+              class="details-beast2"
+            />
+            <img
+              src="public/external/beast14108-qcck-200h.png"
+              alt="Beast14108"
+              class="details-beast1"
+            />
+          </div>
+          <div class="details-genies">
+            <img
+              src="public/external/genie34105-4q8n-200h.png"
+              alt="Genie34105"
+              class="details-genie3"
+            />
+            <img
+              src="public/external/genie24107-wqh4c-200h.png"
+              alt="Genie24107"
+              class="details-genie2"
+            />
+            <img
+              src="public/external/genie14109-8jlp-200h.png"
+              alt="Genie14109"
+              class="details-genie1"
+            />
+          </div>
+          <div class="details-bloodline">
+            <img
+              src="public/external/rectangle4110-3i8o-200w.png"
+              alt="Rectangle4110"
+              class="details-rectangle11"
+            />
+          </div>
+          <div class="details-mythic-art">
+            <div class="details-def">
+              <div class="details-group10">
+                <img
+                  src="public/external/rectangle4114-v2fg-200w.png"
+                  alt="Rectangle4114"
+                  class="details-rectangle12"
+                />
+              </div>
+              <div class="details-group11">
+                <img
+                  src="public/external/rectangle4116-j0lk-200w.png"
+                  alt="Rectangle4116"
+                  class="details-rectangle13"
+                />
+              </div>
+              <div class="details-group12">
+                <img
+                  src="public/external/rectangle4118-qba-200w.png"
+                  alt="Rectangle4118"
+                  class="details-rectangle14"
+                />
+              </div>
+            </div>
+            <div class="details-atk">
+              <div class="details-group13">
+                <img
+                  src="public/external/rectangle4121-latr-200w.png"
+                  alt="Rectangle4121"
+                  class="details-rectangle15"
+                />
+              </div>
+              <div class="details-group14">
+                <img
+                  src="public/external/rectangle4123-rana-200w.png"
+                  alt="Rectangle4123"
+                  class="details-rectangle16"
+                />
+              </div>
+              <div class="details-group15">
+                <img
+                  src="public/external/rectangle4125-7kzm-200w.png"
+                  alt="Rectangle4125"
+                  class="details-rectangle17"
+                />
+              </div>
+            </div>
+            <div class="details-curse">
+              <div class="details-group16">
+                <div class="details-group17">
+                  <img
+                    src="public/external/rectangle4129-fwm-200w.png"
+                    alt="Rectangle4129"
+                    class="details-rectangle18"
+                  />
+                </div>
+                <div class="details-group18">
+                  <img
+                    src="public/external/rectangle4131-s9tl-200w.png"
+                    alt="Rectangle4131"
+                    class="details-rectangle19"
+                  />
+                </div>
+              </div>
+              <div class="details-group19">
+                <img
+                  src="public/external/rectangle4133-pasa-200w.png"
+                  alt="Rectangle4133"
+                  class="details-rectangle20"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="details-abilities">
+            <img
+              src="public/external/ability44135-1gg-200w.png"
+              alt="Ability44135"
+              class="details-ability4"
+            />
+            <img
+              src="public/external/ability34136-f7p8-200w.png"
+              alt="Ability34136"
+              class="details-ability3"
+            />
+            <img
+              src="public/external/ability24137-t8vp-200w.png"
+              alt="Ability24137"
+              class="details-ability2"
+            />
+            <img
+              src="public/external/ability14138-pkmg-200w.png"
+              alt="Ability14138"
+              class="details-ability1"
+            />
+            
+          </div>
+        <div class="buttons">
+          <button id="mainStatButton">Main Stat:</button>
+          <button id="secondaryStatButton">Secondary Stat:</button>
+          <button id="mainResistanceButton">Main Resistance:</button>
+          <button id="secondaryResistanceButton">Secondary Resistance:</button>
+        </div>
+        
+        <div id="modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Select Option</h3>
+            <select id="modalSelect"></select>
+            <button id="saveSelectionButton">Save</button>
+            <button id="closeModalButton">Close</button>
+        </div>
+    </div>
+      </div>
+    </div>
+    <script>
+        const modal = document.getElementById('modal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalSelect = document.getElementById('modalSelect');
+        const saveButton = document.getElementById('saveSelectionButton');
+        const closeButton = document.getElementById('closeModalButton');
+
+        let currentSelection = null;
+
+        const options = {
+            mainStat: ['Strength', 'Dexterity', 'Intelligence', 'Vitality'],
+            secondaryStat: ['Strength', 'Dexterity', 'Intelligence', 'Vitality'],
+            mainResistance: ['Fire', 'Water', 'Earth', 'Air'],
+            secondaryResistance: ['Fire', 'Water', 'Earth', 'Air'],
+            genies: ['Genie A', 'Genie B', 'Genie C'],
+            beasts: ['Beast X', 'Beast Y', 'Beast Z'],
+        };
+
+        function openModal(type) {
+            modal.style.display = 'flex';
+            modalTitle.textContent = `Select ${type}`;
+            modalSelect.innerHTML = '';
+            options[type].forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                modalSelect.appendChild(opt);
+            });
+            currentSelection = type;
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+        function saveSelection() {
+            const selectedValue = modalSelect.value;
+            if (currentSelection) {
+                const displayElement = document.getElementById(`${currentSelection}Display`);
+                if (displayElement) {
+                    displayElement.textContent = selectedValue;
+                }
+            }
+            closeModal();
+        }
+
+        document.getElementById('mainStatButton').addEventListener('click', () => openModal('mainStat'));
+        document.getElementById('secondaryStatButton').addEventListener('click', () => openModal('secondaryStat'));
+        document.getElementById('mainResistanceButton').addEventListener('click', () => openModal('mainResistance'));
+        document.getElementById('secondaryResistanceButton').addEventListener('click', () => openModal('secondaryResistance'));
+        document.getElementById('geniesButton').addEventListener('click', () => openModal('genies'));
+        document.getElementById('beastsButton').addEventListener('click', () => openModal('beasts'));
+
+document.addEventListener('DOMContentLoaded', () => {
+    const loginButton = document.getElementById('loginButton');
+    const loginModal = document.getElementById('loginModal');
+    const overlay = document.getElementById('overlay');
+    const closeModal = document.getElementById('closeModal');
+    const loginForm = document.getElementById('loginForm');
+    const loginMessage = document.getElementById('loginMessage');
+
+    console.log('Script loaded successfully');
+
+    // Show the login modal
+    loginButton.addEventListener('click', () => {
+        console.log('Login button clicked');
+        loginModal.style.display = 'block';
+        overlay.style.display = 'block';
+    });
+
+    // Hide the login modal
+    closeModal.addEventListener('click', () => {
+        loginModal.style.display = 'none';
+        overlay.style.display = 'none';
+    });
+
+    // Handle login form submission
+    loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        fetch('/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password }),
+        })
+            .then(response => response.json())
+            .then(data => {
+                loginMessage.textContent = data.message;
+                loginMessage.style.color = data.success ? 'green' : 'red';
+            })
+            .catch(error => {
+                loginMessage.textContent = 'An error occurred';
+                loginMessage.style.color = 'red';
+            });
+    });
+});
+
+    </script>
+  </body>
+</html>

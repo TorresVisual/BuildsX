@@ -1,0 +1,394 @@
+.details-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.details-details {
+  width: 596.433349609375px;
+  height: 1002.3837890625px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-background1 {
+  top: 0px;
+  left: 0px;
+  width: 596px;
+  height: 1002px;
+  position: absolute;
+}
+ 
+.details-background2 {
+  top: 17.33673095703125px;
+  left: 16.6494140625px;
+  width: 562.8411254882812px;
+  height: 968.7880859375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle10 {
+  top: 0px;
+  left: 0px;
+  width: 563px;
+  height: 969px;
+  position: absolute;
+}
+ 
+.details-beasts {
+  top: 597.6898193359375px;
+  left: 96.859375px;
+  width: 119.28666687011719px;
+  height: 116.55624389648438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-beast2 {
+  top: 0px;
+  left: 41.133331298828125px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+}
+ 
+.details-beast1 {
+  top: 38.394989013671875px;
+  left: 0px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+}
+ 
+.details-genies {
+  top: 513.0435791015625px;
+  left: 66.0093994140625px;
+  width: 264.6243896484375px;
+  height: 78.1612548828125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-genie3 {
+  top: 0px;
+  left: 0px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+}
+ 
+.details-genie2 {
+  top: 0px;
+  left: 93.23553466796875px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+}
+ 
+.details-genie1 {
+  top: 0px;
+  left: 186.4710693359375px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+}
+ 
+.details-bloodline {
+  top: 636.4560546875px;
+  left: 220.2593994140625px;
+  width: 77.46778106689453px;
+  height: 78.1612548828125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle11 {
+  top: 0px;
+  left: 0px;
+  width: 77px;
+  height: 78px;
+  position: absolute;
+}
+ 
+.details-mythic-art {
+  top: 522.8521118164062px;
+  left: 346.3879089355469px;
+  width: 188.54150390625px;
+  height: 180.10984802246094px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-def {
+  top: 86.8648452758789px;
+  left: 47.68584442138672px;
+  width: 92.18119812011719px;
+  height: 93.2449951171875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-group10 {
+  top: 8.773802164796507e-7px;
+  left: 11.285639762878418px;
+  width: 80.89556121826172px;
+  height: 93.2449951171875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle12 {
+  top: 0px;
+  left: 0px;
+  width: 81px;
+  height: 93px;
+  position: absolute;
+}
+ 
+.details-group11 {
+  top: 0.9653745889663696px;
+  left: -0.000001008775598165812px;
+  width: 33.592220306396484px;
+  height: 52.10749816894531px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle13 {
+  top: 0px;
+  left: 0px;
+  width: 34px;
+  height: 52px;
+  position: absolute;
+}
+ 
+.details-group12 {
+  top: 3.564924478530884px;
+  left: 3.284255266189575px;
+  width: 27.25093650817871px;
+  height: 46.24869918823242px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle14 {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 46px;
+  position: absolute;
+}
+ 
+.details-atk {
+  top: 1.0593210458755493px;
+  left: 96.19371032714844px;
+  width: 92.34777069091797px;
+  height: 96.77527618408203px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-group13 {
+  top: 4.2158989906311035px;
+  left: 11.452217102050781px;
+  width: 80.89556121826172px;
+  height: 92.55937194824219px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle15 {
+  top: 0px;
+  left: 0px;
+  width: 81px;
+  height: 93px;
+  position: absolute;
+}
+ 
+.details-group14 {
+  top: 0px;
+  left: 0px;
+  width: 35.648887634277344px;
+  height: 55.535621643066406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 56px;
+  position: absolute;
+}
+ 
+.details-group15 {
+  top: 1.9028770923614502px;
+  left: 2.588031530380249px;
+  width: 30.302597045898438px;
+  height: 51.35126876831055px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle17 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 51px;
+  position: absolute;
+}
+ 
+.details-curse {
+  top: 0px;
+  left: 0px;
+  width: 93.24928283691406px;
+  height: 97.83455657958984px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-group16 {
+  top: 0px;
+  left: 0px;
+  width: 93.24928283691406px;
+  height: 97.83455657958984px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-group17 {
+  top: 5.2751784324646px;
+  left: 12.353706359863281px;
+  width: 80.89556121826172px;
+  height: 92.55937194824219px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle18 {
+  top: 0px;
+  left: 0px;
+  width: 81px;
+  height: 93px;
+  position: absolute;
+}
+ 
+.details-group18 {
+  top: 0px;
+  left: 0px;
+  width: 47.30332946777344px;
+  height: 55.535621643066406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle19 {
+  top: 0px;
+  left: 0px;
+  width: 47px;
+  height: 56px;
+  position: absolute;
+}
+ 
+.details-group19 {
+  top: 2.5583722591400146px;
+  left: 1.1843892335891724px;
+  width: 43.08236312866211px;
+  height: 50.12129211425781px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-rectangle20 {
+  top: 0px;
+  left: 0px;
+  width: 43px;
+  height: 50px;
+  position: absolute;
+}
+ 
+.details-abilities {
+  top: 754.8292846679688px;
+  left: 63.3521728515625px;
+  width: 468.17822265625px;
+  height: 133.01124572753906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.details-ability4 {
+  top: 0px;
+  left: 0px;
+  width: 97px;
+  height: 133px;
+  position: absolute;
+}
+ 
+.details-ability3 {
+  top: -2.2888150397193385e-7px;
+  left: 123.60977935791016px;
+  width: 97px;
+  height: 133px;
+  position: absolute;
+}
+ 
+.details-ability2 {
+  top: -2.2888150397193385e-7px;
+  left: 247.2195587158203px;
+  width: 97px;
+  height: 133px;
+  position: absolute;
+}
+ 
+.details-ability1 {
+  top: -2.2888150397193385e-7px;
+  left: 370.8293151855469px;
+  width: 97px;
+  height: 133px;
+  position: absolute;
+}
